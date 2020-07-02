@@ -44,7 +44,7 @@ public class Main {
 	    }
 	    
 	    static void showMenu() {
-	        System.out.println("1. Show User");
+	        System.out.println("1. Show Sinh Viên");
 	        System.out.println("2. Insert");
 	        System.out.println("3. Update");
 	        System.out.println("4. Delete");

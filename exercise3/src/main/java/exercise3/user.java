@@ -49,23 +49,23 @@ public class user {
 	}
 	
 	public void input() {
-        Scanner scan = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Nhap id: ");
-        id = scan.nextInt();
-        scan.nextLine();
+        id = sc.nextInt();
+        sc.nextLine();
         System.out.println("Nhap userName: ");
-        userName = scan.nextLine();
+        userName = sc.nextLine();
         System.out.println("Nhap fullName: ");
-        fullName = scan.nextLine();
+        fullName = sc.nextLine();
         System.out.println("Nhap phone: ");
-        phone = scan.nextLine();
+        phone = sc.nextLine();
 	}
 	
 	public void show(){
 	       System.out.println("THÔNG TIN SV ");
-	       System.out.println("id:"+id);
-	       System.out.println("userName:"+userName);
-	       System.out.println("fullName:"+fullName);
-	       System.out.println("số phone:"+phone);
+	       System.out.println("id: "+id);
+	       System.out.println("userName: "+userName);
+	       System.out.println("fullName: "+fullName);
+	       System.out.println("số phone: "+phone);
 	   }
 }
